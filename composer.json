@@ -1,0 +1,27 @@
+{
+  "name": "netzkollektiv/easycredit-click-and-collect-overwrite-address",
+  "description": "Magento 2 plugin to align shipping address with billing for EasyCredit Click & Collect.",
+  "type": "magento2-module",
+  "license": ["MIT"],
+  "require": {
+    "php": ">=8.1"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Netzkollektiv\\EasyCreditOverwriteAddress\\": ""
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "extra": {
+    "map": [
+      [
+        "*",
+        "Netzkollektiv/EasyCreditOverwriteAddress"
+      ]
+    ]
+  }
+}

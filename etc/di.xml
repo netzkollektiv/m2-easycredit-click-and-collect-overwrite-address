@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+
+    <type name="Netzkollektiv\EasyCredit\BackendApi\QuoteBuilder">
+        <plugin name="easycredit_click_and_collect_plugin"
+                type="Netzkollektiv\EasyCreditOverwriteAddress\Plugin\QuoteBuilderPlugin"
+                sortOrder="10"/>
+    </type>
+
+</config>
